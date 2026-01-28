@@ -1,0 +1,16 @@
+command to activate venv 
+
+venv\Scripts\activate
+for linux -> source venv/bin/activate
+
+
+command to create venv
+python -m venv venv
+
+#exit
+deactivate
+
+
+
+#for run streamlit
+streamlit run ___
