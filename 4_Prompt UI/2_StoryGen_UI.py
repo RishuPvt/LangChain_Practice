@@ -1,7 +1,7 @@
 from langchain_google_genai  import GoogleGenerativeAI
 from dotenv import load_dotenv
 import streamlit as st
-from langchain_core.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate #dynamic prompt
 
 load_dotenv()
 

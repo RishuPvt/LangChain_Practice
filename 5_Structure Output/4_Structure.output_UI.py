@@ -92,7 +92,7 @@ if st.button("Analyze Review"):
                     st.write(result.get("cons"))
 
                 if result.get("name"):
-                    st.subheader("👤 Reviewer")
+                    st.subheader("Reviewer")
                     st.write(result.get("name"))
 
             except Exception as e:
