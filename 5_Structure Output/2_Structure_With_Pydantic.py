@@ -20,6 +20,7 @@ class Review(BaseModel):
     
 
 
+#with_structured_output forces the LLM to return data in a fixed, predefined structure (schema) instead of free-text.
 structured_llm = gemini.with_structured_output(Review)
 
 text_to_analyze = """
