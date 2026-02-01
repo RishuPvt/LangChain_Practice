@@ -44,7 +44,7 @@ json_schema = {
     },
     "required": ["key_themes", "summary", "sentiment"]
 }
-
+#with_structured_output forces the LLM to return data in a fixed, predefined structure (schema) instead of free-text.
 structured_model = model.with_structured_output(json_schema)
 
 
